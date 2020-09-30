@@ -7,3 +7,11 @@ Pythonがメインだと思いますが、MATLABもアップロードしてい�
 引数にトリミングしたい画像のパスを入れてください。  
 トリミング後の画像は以下のように、同じディレクトリ内に別名で保存されます。  
 「(元のファイル名).(拡張子)」 --> 「(元のファイル名)_resize.(拡張子)」  
+
+## save_result_cluster.m
+スクリプトのコメントアウトに従って適宜直せば実行できるかと思います。  
+SPM.matがあるファイル内に
+- Tableのpngファイル
+- 各閾値でのniftyファイル(e.g. spmT_0001_positive_unc_0_001.nii)
+- 各閾値でのTableのcsv(e.g. Unmodulated_positive_cluster_0_05.csv)
+が保存されます。  
