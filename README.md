@@ -10,9 +10,9 @@ PythonとMATLABがメインです。
 
 ## save_result_cluster.m
 スクリプトのコメントアウトに従って適宜直せば実行できるかと思います。  
-SPM.matがあるファイル内に
-- Tableのpngファイル
-- 各閾値でのniftyファイル(e.g. spmT_0001_positive_unc_0_001.nii)
+SPM.matがあるディレクトリ内に
+- Tableのpng
+- 各閾値でのnifti(e.g. spmT_0001_positive_unc_0_001.nii)
 - 各閾値でのTableのcsv(e.g. Unmodulated_positive_cluster_0_05.csv)
 
 が保存されます。  
